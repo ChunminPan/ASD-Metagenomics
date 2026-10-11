@@ -1,7 +1,5 @@
 # From 16S to shotgun metagenomics
 
-**Chunmin Pan | Independent research | Python, Bash, and Linux**
-
 ## Why I began this research
 
 While working with autistic musicians, I heard parents describe their children's gastrointestinal discomfort and uncertainty about dietary choices. These conversations led me to study the gut microbiome, the community of microorganisms living in the digestive tract. I wanted to investigate whether public biological data could help me examine the questions raised by those everyday experiences.
