@@ -2,8 +2,6 @@
 
 ### Exploring the gut microbiome in autism and gastrointestinal conditions
 
-**Chunmin Pan | Independent research | Python, Bash, and Linux**
-
 ## Why I began this research
 
 While working with autistic musicians, I heard parents describe their children's gastrointestinal discomfort and uncertainty about dietary choices. These conversations led me to study the gut microbiome, the community of microorganisms living in the digestive tract. I wanted to investigate whether public biological data could help me examine the questions raised by those everyday experiences.
@@ -43,7 +41,7 @@ KEGG Orthology groups genes by shared functions. Enzyme Commission categories de
 
 ## About the code
 
-The repository preserves three recovered project scripts in `archive/original_scripts/`. The portable workflow in `scripts/` organizes recovered commands and documented publication edits into a common interface. Some production command blocks, including the final HUMAnN invocation and normalization commands, could not be recovered verbatim. Their replacements are explicitly identified as reconstructions in [PROVENANCE.md](docs/PROVENANCE.md). This is not a claim that every file here was used unchanged in the original analysis.
+The portable workflow in `scripts/` organizes recovered commands and documented publication edits into a common interface. Some production command blocks, including the final HUMAnN invocation and normalization commands, could not be recovered verbatim. Their replacements are explicitly identified as reconstructions in [PROVENANCE.md](docs/PROVENANCE.md). This is not a claim that every file here was used unchanged in the original analysis.
 
 For technical use, start with [RUNNING.md](docs/RUNNING.md). A local sample sheet and installed reference databases are required; the included sample-sheet template is empty. The pipeline can print its planned commands before executing them:
 
