@@ -1,0 +1,31 @@
+{
+  "metadata": "private/sample_metadata.csv",
+  "work_dir": "../asd-metagenomics-work",
+  "sra_max_size": "100g",
+  "threads": {
+    "download": 4,
+    "qc": 6,
+    "taxonomy": 4,
+    "function": 8
+  },
+  "conda_environments": {
+    "sra": "",
+    "qc": "",
+    "taxonomy": "",
+    "function": "",
+    "regroup": ""
+  },
+  "databases": {
+    "host": "/path/to/kneaddata/human",
+    "metaphlan": "/path/to/metaphlan/database",
+    "chocophlan": "/path/to/humann/chocophlan",
+    "uniref": "/path/to/humann/uniref_protein_database",
+    "ko_map": "/path/to/map_ko_uniref90.txt.gz",
+    "ec_map": "/path/to/map_level4ec_uniclust90.txt.gz"
+  },
+  "metaphlan_index": "mpa_vOct22_CHOCOPhlAnSGB_202403",
+  "normalization": {
+    "mode": "community",
+    "special": "y"
+  }
+}
